@@ -39,7 +39,7 @@ def accuracy(predictions, targets):
     accuracy = correct / targets.size(0)
     return accuracy
 
-def train():
+def train(FLAGS):
     """
     Performs training and evaluation of MLP model.
     NOTE: You should the model on the whole test set each eval_freq iterations.
